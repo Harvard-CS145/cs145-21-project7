@@ -3,7 +3,7 @@
 You are supposed to design and implement an open-ended project. You can choose between three directions. Check with us about your project ideas to make sure they’re in scope. Think big!
 
 ## Direction 1:
-We have built a data center network in the past projects. Now you are supposed to add a new feature to it. Interesting projects may become course projects for future semesters. One example is the [P4 Network Visualizer](https://github.com/Danieltech99/P4-Network-Visualizer). 
+We have built a data center network in the past projects. Now you are supposed to add a new feature to it. Interesting projects may become course projects for future semesters. 
 
 In general, you can look for project ideas by revisiting the key ideas discussed in lectures and pick one idea to implement. 
 Here are a few suggested topics. 
@@ -23,7 +23,7 @@ Our link-state and distance vector implementation in project 2 is a standalone p
 
 ### Running DCTCP in Mininet and compare its performance with TCP
 
-### Implement MPLS or WCMP in Mininet 
+### Implement MPLS in Mininet 
 
 ### Add P4 debugging tools
 Build an innovative and useful tool that can help P4 developers visualize, identify or better understand their program's behavior and more conveniently debug it.
@@ -61,6 +61,12 @@ In addition to the code, write up your project in a file that you add to your re
 - How can we test your work?
 - Provide evaluation results or performance analysis of your work
 - The writeup need not be very long; 300 words can do it if you use the words well.
+
+
+# Example past projects:
+- Spring 2020: [P4 Network Visualizer](https://github.com/Danieltech99/P4-Network-Visualizer) by Daniel Rodrigues
+- Spring 2021: Spanning tree by Noel
+- Spring 2021: XXX
 
 
 <!--

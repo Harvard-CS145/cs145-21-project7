@@ -202,7 +202,7 @@ Remember to run `sudo service lightdm start` to have a GUI.
 2. On the load balancers(`h1` and `h2`), run `python load_balancer.py`
 3. On the server hosts(`h13`, `h14`, `h15`, `h16`), run `agent.py`
 4. Run `php -S 20.0.0.1:80 -t ~/resources/wwwroot` on every server host(`h13`, `h14`, `h15`, `h16`).
-5. Run `wget 20.0.0.1` on each client.
+5. Run `wget 20.0.0.1:80/streaming.html` on each client.
 
 <!--- sending IPinIP packets from the LB to the server results in ICMP packets(destination unreachable, protocol unreachable) to be sent back to the load balancer. This doesn't affect performance. It may be solved by adding an IPinIP tunnel.
 There is also sometimes a bug where pinging or sending packets to the VIP results in ttl exceeded because of a routing loop at the LB.-->
